@@ -1,13 +1,21 @@
+$colorBlack: black;
+$colorRed: red;
+$colorBlue: blue;
+$textWhite: white;
+
 h1{
-  color: black;
+  color: $colorBlack;
 }
 footer{
-  background-color: black;
+  background-color: $colorBlack;
   h4{
-    color: red;
+    color: $colorRed;
     a{
-      color: blue;
+      color: $colorBlue;
     }
+  }
+  div{
+    color: $textWhite;
   }
 
 }
