@@ -1,4 +1,4 @@
-@mixin cuadrado ($fondo,$lado){
+@mixin cuadrado ($fondo,$lado:200px){
   background-color: $fondo;
   width: $lado;
   height: $lado;
@@ -10,7 +10,7 @@
   @include cuadrado(black,100px);
 }
 .cuadrado2{
-  @include cuadrado(red,200px);
+  @include cuadrado(red);
 }
 .cuadrado3{
   @include cuadrado(blue,300px);
