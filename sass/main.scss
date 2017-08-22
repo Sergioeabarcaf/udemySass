@@ -1,21 +1,6 @@
-$colorBlack: black;
-$colorRed: red;
-$colorBlue: blue;
-$textWhite: white;
+@import "variables";
+@import "footer";
 
 h1{
   color: $colorBlack;
-}
-footer{
-  background-color: $colorBlack;
-  h4{
-    color: $colorRed;
-    a{
-      color: $colorBlue;
-    }
-  }
-  div{
-    color: $textWhite;
-  }
-
 }
