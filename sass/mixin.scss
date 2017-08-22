@@ -1,24 +1,17 @@
-.cuadrado1{
+@mixin cuadrado {
   background-color: black;
   width: 200px;
   height: 200px;
   margin-top: 5px;
   padding: 10px;
   color: white;
+}
+.cuadrado1{
+  @include cuadrado;
 }
 .cuadrado2{
-  background-color: black;
-  width: 200px;
-  height: 200px;
-  margin-top: 5px;
-  padding: 10px;
-  color: white;
+  @include cuadrado;
 }
 .cuadrado3{
-  background-color: black;
-  width: 200px;
-  height: 200px;
-  margin-top: 5px;
-  padding: 10px;
-  color: white;
+  @include cuadrado;
 }
