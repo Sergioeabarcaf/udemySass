@@ -1,6 +1,7 @@
 $colorBlack: black;
 $colorRed: red;
 $colorBlue: blue;
+$textWhite: white;
 
 h1{
   color: $colorBlack;
@@ -12,6 +13,9 @@ footer{
     a{
       color: $colorBlue;
     }
+  }
+  div{
+    color: $textWhite;
   }
 
 }
