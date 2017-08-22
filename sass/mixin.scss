@@ -1,17 +1,17 @@
-@mixin cuadrado ($fondo){
+@mixin cuadrado ($fondo,$lado){
   background-color: $fondo;
-  width: 200px;
-  height: 200px;
+  width: $lado;
+  height: $lado;
   margin-top: 5px;
   padding: 10px;
   color: white;
 }
 .cuadrado1{
-  @include cuadrado(black);
+  @include cuadrado(black,100px);
 }
 .cuadrado2{
-  @include cuadrado(red);
+  @include cuadrado(red,200px);
 }
 .cuadrado3{
-  @include cuadrado(blue);
+  @include cuadrado(blue,300px);
 }

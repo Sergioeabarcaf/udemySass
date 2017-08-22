@@ -1,7 +1,7 @@
 .cuadrado1 {
   background-color: black;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin-top: 5px;
   padding: 10px;
   color: white; }
@@ -16,8 +16,8 @@
 
 .cuadrado3 {
   background-color: blue;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-top: 5px;
   padding: 10px;
   color: white; }
